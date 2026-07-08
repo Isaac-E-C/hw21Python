@@ -1,0 +1,61 @@
+patients_data = [
+    {"fullName": "Carlos Rivera", "nationalId": "1234567890", "email": "carlos.rivera@email.com", "phone": "0999123456", "insuranceType": "Public"},
+    {"fullName": "Maria Torres", "nationalId": "1234567891", "email": "maria.torres@email.com", "phone": "0999123457", "insuranceType": "Private"},
+    {"fullName": "Juan Perez", "nationalId": "1234567892", "email": "juan.perez@email.com", "phone": "0999123458", "insuranceType": "Public"},
+    {"fullName": "Ana Gomez", "nationalId": "1234567893", "email": "ana.gomez@email.com", "phone": "0999123459", "insuranceType": "Private"},
+    {"fullName": "Luis Martinez", "nationalId": "1234567894", "email": "luis.martinez@email.com", "phone": "0999123460", "insuranceType": "Public"},
+    {"fullName": "Sofia Lopez", "nationalId": "1234567895", "email": "sofia.lopez@email.com", "phone": "0999123461", "insuranceType": "Private"},
+    {"fullName": "Diego Hernandez", "nationalId": "1234567896", "email": "diego.hernandez@email.com", "phone": "0999123462", "insuranceType": "Public"},
+    {"fullName": "Valentina Diaz", "nationalId": "1234567897", "email": "valentina.diaz@email.com", "phone": "0999123463", "insuranceType": "Private"},
+    {"fullName": "Andres Silva", "nationalId": "1234567898", "email": "andres.silva@email.com", "phone": "0999123464", "insuranceType": "Public"},
+    {"fullName": "Camila Castro", "nationalId": "1234567899", "email": "camila.castro@email.com", "phone": "0999123465", "insuranceType": "Private"},
+    {"fullName": "Miguel Angel Ruiz", "nationalId": "1234567900", "email": "miguel.ruiz@email.com", "phone": "0999123466", "insuranceType": "Public"},
+    {"fullName": "Laura Jimenez", "nationalId": "1234567901", "email": "laura.jimenez@email.com", "phone": "0999123467", "insuranceType": "Private"},
+    {"fullName": "Roberto Sanchez", "nationalId": "1234567902", "email": "roberto.sanchez@email.com", "phone": "0999123468", "insuranceType": "Public"},
+    {"fullName": "Daniela Morales", "nationalId": "1234567903", "email": "daniela.morales@email.com", "phone": "0999123469", "insuranceType": "Private"},
+    {"fullName": "Fernando Ortiz", "nationalId": "1234567904", "email": "fernando.ortiz@email.com", "phone": "0999123470", "insuranceType": "Public"},
+]
+
+doctors_data = [
+    {"fullName": "Dr. Ricardo Mendoza", "specialty": "Fisioterapia Deportiva", "licenseNumber": "FIS-001", "rating": 4.8, "email": "ricardo.mendoza@sersalud.com", "phone": "0999000111"},
+    {"fullName": "Dra. Patricia Vega", "specialty": "Fisioterapia Neurol\u00f3gica", "licenseNumber": "FIS-002", "rating": 4.9, "email": "patricia.vega@sersalud.com", "phone": "0999000222"},
+    {"fullName": "Dr. Alberto Campos", "specialty": "Fisioterapia Ortop\u00e9dica", "licenseNumber": "FIS-003", "rating": 4.7, "email": "alberto.campos@sersalud.com", "phone": "0999000333"},
+    {"fullName": "Dra. Sofia Rios", "specialty": "Fisioterapia Pedi\u00e1trica", "licenseNumber": "FIS-004", "rating": 4.6, "email": "sofia.rios@sersalud.com", "phone": "0999000444"},
+    {"fullName": "Dr. Manuel Flores", "specialty": "Fisioterapia Geri\u00e1trica", "licenseNumber": "FIS-005", "rating": 4.5, "email": "manuel.flores@sersalud.com", "phone": "0999000555"},
+]
+
+therapies_data = [
+    {"name": "Terapia Manual", "description": "T\u00e9cnicas manuales para aliviar dolor y mejorar movilidad", "specialty": "Fisioterapia General", "duration": 45, "price": 45.00},
+    {"name": "Electroterapia", "description": "Uso de corriente el\u00e9ctrica para estimulaci\u00f3n muscular", "specialty": "Fisioterapia General", "duration": 30, "price": 35.00},
+    {"name": "Ultrasonido Terap\u00e9utico", "description": "Ondas sonoras para tratar lesiones profundas", "specialty": "Fisioterapia General", "duration": 20, "price": 30.00},
+    {"name": "Rehabilitaci\u00f3n Deportiva", "description": "Programa especializado para recuperaci\u00f3n de atletas", "specialty": "Fisioterapia Deportiva", "duration": 60, "price": 60.00},
+    {"name": "Terapia Neurol\u00f3gica", "description": "Rehabilitaci\u00f3n para pacientes con trastornos neurol\u00f3gicos", "specialty": "Fisioterapia Neurol\u00f3gica", "duration": 50, "price": 55.00},
+    {"name": "Rehabilitaci\u00f3n Ortop\u00e9dica", "description": "Recuperaci\u00f3n post-operatoria y lesiones ortop\u00e9dicas", "specialty": "Fisioterapia Ortop\u00e9dica", "duration": 45, "price": 50.00},
+    {"name": "Fisioterapia Pedi\u00e1trica", "description": "Terapia especializada para ni\u00f1os", "specialty": "Fisioterapia Pedi\u00e1trica", "duration": 40, "price": 40.00},
+    {"name": "Fisioterapia Geri\u00e1trica", "description": "Cuidado fisioterap\u00e9utico para adultos mayores", "specialty": "Fisioterapia Geri\u00e1trica", "duration": 45, "price": 42.00},
+]
+
+symptoms_list = [
+    "Dolor lumbar cr\u00f3nico con irradiaci\u00f3n a pierna derecha, dificultad para estar sentado por m\u00e1s de 30 minutos",
+    "Esguince de tobillo grado II con inflamaci\u00f3n significativa y dificultad para apoyar el pie",
+    "Dolor cervical intenso con cefalea tensional, empeora con movimientos de rotaci\u00f3n",
+    "Hombro congelado con limitaci\u00f3n severa de la movilidad, no puede elevar el brazo m\u00e1s all\u00e1 de 90 grados",
+    "Lumbalgia aguda post-esfuerzo con espasmo muscular paravertebral bilateral",
+    "Contractura muscular en trapecio superior con puntos gatillo activos que irradian a cabeza",
+    "Fractura de mu\u00f1eca en etapa de rehabilitaci\u00f3n, necesita recuperar rango de movimiento completo",
+    "Dolor patelofemoral bilateral al subir escaleras y despu\u00e9s de estar sentado prolongadamente",
+    "Tendinitis aquiliana cr\u00f3nica con dolor matutino que mejora con actividad ligera",
+    "Rehabilitaci\u00f3n post-operatoria de rodilla derecha, necesita recuperar flexi\u00f3n completa",
+    "Dolor en hombro izquierdo con signos de pinzamiento subacromial al realizar movimientos por encima de la cabeza",
+    "Pie plano valgo bilateral con dolor en arco plantar despu\u00e9s de largas jornadas de pie",
+    "Cervicalgia cr\u00f3nica con v\u00e9rtigo ocasional y limitaci\u00f3n de la movilidad cervical",
+    "Epicondilitis lateral derecha (codo de tenista) con dolor al realizar movimientos de extensi\u00f3n de mu\u00f1eca",
+    "Dolor sacroil\u00edaco unilateral que empeora al estar sentado en superficies duras",
+    "Rehabilitaci\u00f3n neurol\u00f3gica post-ACV con hemiparesia izquierda y espasticidad",
+    "Dolor neurop\u00e1tico en miembro superior derecho secundario a hernia cervical C5-C6",
+    "S\u00edndrome del t\u00fanel carpiano bilateral con parestesias nocturnas y debilidad en la mano",
+    "Dolor en cadera derecha con signos de bursitis trocant\u00e9rica al caminar distancias largas",
+    "Escoliosis lumbar con descompensaci\u00f3n p\u00e9lvica y dolor cr\u00f3nico en regi\u00f3n lumbosacra",
+    "Fascitis plantar cr\u00f3nica con dolor intenso en los primeros pasos de la ma\u00f1ana",
+    "Rehabilitaci\u00f3n post-fractura de h\u00famero proximal con limitaci\u00f3n de la abducci\u00f3n del hombro",
+]
